@@ -310,6 +310,9 @@ const Scroll = forwardRef<
     >
       <div ref={innerRef} style={getDefaultInnerStyle(dir)}>
         <div
+          style={{
+            height: "100%",
+          }}
           onPointerOver={() => setCursor("grab")}
           onPointerOut={() => setCursor("")}
           onPointerDown={() => setCursor("grabbing")}
