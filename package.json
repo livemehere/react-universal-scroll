@@ -1,14 +1,18 @@
 {
-  "name": "@livemehere/{packageName}",
-  "version": "0.0.3",
+  "name": "react-universal-scroll",
+  "version": "1.0.0",
   "type": "module",
   "author": "livemehere",
-  "homepage": "https://github.com/livemehere/{repoName}",
-  "repository": "https://github.com/livemehere/{repoName}",
-  "description": "{description}",
+  "homepage": "https://github.com/livemehere/react-universal-scroll",
+  "repository": "https://github.com/livemehere/react-universal-scroll.git",
+  "description": "Looking for same scroll behavior on all devices.",
   "license": "MIT",
   "keywords": [
-    "react"
+    "react",
+    "scroll",
+    "grab",
+    "drag",
+    "touch"
   ],
   "exports": {
     ".": {
